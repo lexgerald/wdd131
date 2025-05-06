@@ -6,13 +6,26 @@ body {
   
   header {
     background: darkblue;
-    padding: 2rem;
     grid-column: 1 / 4;
+    color: white;
   }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
   
   .left-sidebar {
     background: lightblue;
     grid-column: 1 / 2;
+    color: white;
   }
   
   main {
@@ -23,6 +36,7 @@ body {
   .right-sidebar {
     background: rgb(33, 240, 167);
     grid-column: 3 / 4;
+    color: white;
   }
   
   footer {
@@ -30,6 +44,7 @@ body {
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 4;
+    color: white;
   }
   
   .left-sidebar,
