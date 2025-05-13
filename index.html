@@ -1,62 +1,76 @@
 <!DOCTYPE html>
 <html lang="en-Us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 – Dynamic Web Fundamentals - Gerald Williams</title>
-    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals, Gerald Williams, Home page">
-    <meta name="author" content="Gerald Williams">
-    <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/getdates.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 - Dynamic Web Fundamentals - Gerald Williams</title>
+  <meta name="description"
+    content="WDD 131 - Dynamic Web Fundamentals. Gerald Williams. This is a student portfolio website">
+  <meta name="author" content="Gerald Williams">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+  <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <header>
-        <h1>WDD 131: Dynamic Web Fundamentals - Gerald Williams</h1>
-        <nav>
-            <a href="https://www.linkedin.com/in/gerald-williams-0825a81a0/">LinkedIn</a>
-            <a href="https://byupw.instructure.com/">Canvas</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
-            <a href="#">Final Project</a>  
-        </nav>
-    </header>
-
-    <main>
-        <section class="card">
-            <div>
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sunt culpa voluptatibus facilis sint quae nobis quo magni nam quisquam! Voluptas cupiditate dolores cumque dignissimos consequatur pariatur vitae laudantium architecto.</p>
-                <h3>Freetown, Sierra Leone</h3>
-                <article>
-                    <img src="images/flag.jpg" alt="happy worker">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ut, sapiente minus modi dignissimos earum architecto corporis aliquam ex consectetur corrupti sequi saepe blanditiis commodi repudiandae optio officiis, doloremque accusantium.</p>
-                </article>
-            </div>
-            <img src="images/williams.jpg" alt="Image 1">
-        </section>
-
-        <section class="card">
-            <div>
-                <h2>Web Div Resources</h2>
-                <ul>
-                    <li><a href="">Dev.to Community</a></li>
-                    <li><a href="">Smashing Magazine</a></li>
-                    <li><a href="">CSS Tricks</a></li>
-                    <li><a href="">W3 School</a></li>
-                    <li><a href="">Udemy</a></li>
-                    <li><a href="">Image Placeholder</a></li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; <span id="currentyear"></span> 💻Gerald Williams💻 Sierra Leone</p>
-        <p id="lastModified"></p>
-    </footer>
-
+  <header>
+    <h1>WDD 131: Dynamic Web Fundamentals | Gerald Williams</h1>
+    <nav>
+        <a href="https://www.linkedin.com/in/danielclaudio/">LinkedIn</a>
+        <a href="https://byupw.instructure.com/">Canvas</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng&id=p16#p16">Scripture</a>
+        <a href="#finalproject">Final Project</a>
+    </nav>
+  </header>
+<main>
+  <section class="card about-philippines">
+    <h2 class="card-header">About Me</h2>
+    <div class="card-body">
+      <div class="card-text">
+        <p>
+            My name is Gerald Williams, I am a devoted husband and proud father, balancing family life with his passion for technology and video games. With a natural curiosity, I enjoys diving into the latest advancements, exploring innovations that shape the digital world. Whether it's analyzing new tech trends or immersing myself in a thrilling gaming experience, I am always expanding my knowledge and embracing the excitement of modern technology.
+        </p>
+      </div>
+      <div class="card-image">
+        <img src="images/williams.jpg" alt="Profile picture">
+      </div>
+    </div>
+    <div class="card-body reverse">
+      <h3>Sierra Leone</h3>
+      <div class="card-image">
+        <img src="images/flag.jpg" alt="Sierra Leone Flag">
+        <p class="flag-caption">Sierra Leone</p>
+      </div>
+      <div class="card-text">
+        <p>
+            Sierra Leone is a presidential republic located on the Atlantic Ocean in West Africa. It shares borders with Guinea to the north and east, and Liberia to the south. The country has mangrove swamps along the coast, wooded hills, and a plateau in the interior, with the eastern region being mountainous. The constitution provides for the separation of state and religion and freedom of conscience. 
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="card">
+    <h2 class="card-header">Web Dev Resources</h2>
+    <div class="card-body">
+      <ul>
+        <li><a href="https://dev.to/">Dev.to Community</a></li>
+        <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+        <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+        <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+        <li><a href="https://www.udemy.com/">Udemy</a></li>
+        <li><a href="https://placeholder.com/">Image Placeholder</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+  <footer>
+    <p>
+        &copy;<span id="currentyear"></span> 💻Gerald Williams💻 Sierra Leone
+    </p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
 </html>
