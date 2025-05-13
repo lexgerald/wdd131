@@ -128,14 +128,7 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
-h3 {
-    border-bottom: 1px solid black;
-}
-  
-  .card article img {
-    float: left;
-    width: 150px; 
-  }
+
   @media (min-width: 768px) {
     main {
       grid-template-columns: 1fr 1fr;
