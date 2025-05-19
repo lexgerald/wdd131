@@ -1,0 +1,13 @@
+/* CSS for the weather*/
+main {
+    grid-template-columns: 1fr 1fr;
+}
+
+.weather h2::after {
+    content: " ⛅";
+    margin-left: 10px;
+}
+
+.mobile-icon {
+    display: none;
+}
