@@ -82,3 +82,87 @@ footer {
 footer p {
     margin: 5px 0;
 }
+
+@media (min-width: 576px) {
+    body {
+        padding: 1.5rem;
+    }
+    
+    header h1 {
+        font-size: 2.25rem;
+    }
+    
+    .card h2 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    header img {
+        max-height: 400px;
+    }
+    
+    .weather h2::after {
+        content: " ⛅";
+        margin-left: 10px;
+    }
+
+    .mobile-icon {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        padding: 2rem;
+    }
+    
+    header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .card {
+        padding: 2rem;
+    }
+     .card h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header img {
+        max-height: 500px;
+    }
+    
+    .weather-content {
+        font-size: 1.1rem;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        padding: 0.5in;
+        font-size: 12pt;
+    }
+    
+    header img {
+        display: none;
+    }
+    .card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        page-break-inside: avoid;
+    }
+    
+    footer {
+        background-color: white;
+        color: black;
+        border-top: 1px solid #000;
+    }
+}
