@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerald Williams | Artisan Coffee Shop</title>
+    <meta name="description" content="Freetown's favorite local coffee shop serving artisan brews since 2022">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="js/menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Brew Haven Logo" width="50" height="50">
+                <span>Wills Pious</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="visit.html">Visit Us</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-header">
+            <h1>Our Menu</h1>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="hot">Hot</button>
+                <button class="filter-btn" data-filter="cold">Cold</button>
+            </div>
+        </section>
+
+        <section class="menu-container">
+            <div id="menu-items" class="menu-grid">
+                <!-- Filled dynamically by JavaScript -->
+            </div>
+        </section>
+
+        <section class="seasonal">
+            <h2>Seasonal Specials</h2>
+            <div class="specials-container">
+                <div class="special-item">
+                    <h3>Pumpkin Spice Latte</h3>
+                    <p>$5.49 | Available Sep-Nov</p>
+                </div>
+                <div class="special-item">
+                    <h3>Peppermint Mocha</h3>
+                    <p>$5.99 | Available Dec-Jan</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wills Pious | <a href="references.html">References</a></p>
+    </footer>
+</body>
+</html>
