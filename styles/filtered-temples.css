@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #003366;
-    color: white;
+    color: #1eceee;
     padding: 1rem;
     text-align: center;
 }
@@ -21,7 +21,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
+    color: #1eceee;
     padding: 0.5rem 1rem;
     text-decoration: none;
     margin: 0 0.5rem;
@@ -30,7 +30,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a.active {
-    color: #1eceee;
+    color: #fff;
 }
 
 .temple-grid {
@@ -110,7 +110,7 @@ nav ul li a:hover, nav ul li a.active {
 
 footer {
     background-color: #003366;
-    color: white;
+    color: #1eceee;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;

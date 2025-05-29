@@ -15,6 +15,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
+
 // Today's Special Banner
 function updateDailySpecial() {
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
