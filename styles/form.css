@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
-    --accent-color: #e74c3c;
-    --light-color: #ecf0f1;
-    --dark-color: #2c3e50;
-    --success-color: #27ae60;
-    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --primary-color: #1a2b3c;       /* Darker blue-gray - better contrast */
+    --secondary-color: #2874a6;     /* Darker blue - better contrast */
+    --accent-color: #c0392b;        /* Darker red - better contrast */
+    --light-color: #f8f9fa;         /* Slightly lighter gray */
+    --dark-color: #212529;          /* Nearly black - better contrast */
+    --text-on-light: #212529;       /* Dark text for light backgrounds */
+    --text-on-dark: #ffffff;        /* White text for dark backgrounds */
 }
 
 * {
